@@ -1,7 +1,7 @@
 component: html tags  {} -> <>
-directive: extends html tags
+directive: extends html tags as attribute
 service: get data (from rest api)
-?
+dependency injection: provider:[ , , ]
 
 data (top to bottom - to dom elements)
 event(bottom to top - from dom elements)
@@ -14,7 +14,11 @@ component
 ---------
 metadata of component
 -selector <html tag name>
--template <html tags> *ngFor {{interpolation (var replace w/ value)}}
--provider [list of injected class/script]
+-template: `<html tags> *ngFor {{interpolation (var replace w/ value)}} </>`
+-provider: [list of injected class/script]
+-directive: []
 
-
+export class MyClass {
+    title: private string = 'haha'
+    constructor(
+}
