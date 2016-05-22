@@ -6,3 +6,15 @@ service: get data (from rest api)
 data (top to bottom - to dom elements)
 event(bottom to top - from dom elements)
 
+{} = object
+() = event
+[] = data
+
+component
+---------
+metadata of component
+-selector <html tag name>
+-template <html tags>
+-provider [list of injected class/script]
+
+
