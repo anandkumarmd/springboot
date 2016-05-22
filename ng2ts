@@ -1,0 +1,8 @@
+component: html tags  {} -> <>
+directive: extends html tags
+service: get data (from rest api)
+?
+
+data (top to bottom - to dom elements)
+event(bottom to top - from dom elements)
+
