@@ -14,7 +14,7 @@ component
 ---------
 metadata of component
 -selector <html tag name>
--template <html tags>
+-template <html tags> *ngFor {{interpolation (var replace w/ value)}}
 -provider [list of injected class/script]
 
 
