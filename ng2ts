@@ -1,5 +1,7 @@
-component: html tags  {} -> <>
-directive: extends html tags as attribute
+(ng transforms components,directives them when it parses html tags)
+
+component: html tags  {} -> <>;            they are html elements themselves
+directive: extends html tags as attribute; live in html elements (ng transforms them when it parses it)
 service: get data (from rest api)
 dependency injection: provider:[ , , ]
 
@@ -9,7 +11,18 @@ event(bottom to top - from dom elements)
 {} = object
 () = event
 [] = data
+-------------------------------------
+no controller in directive (replaced directive w/ components)
+no scope (comunicate btw templates & controller)
 
+======================
+TYPESCRIPT
+classes
+template
+types
+annotation (adding metadata to code)
+
+------
 component
 ---------
 metadata of component
